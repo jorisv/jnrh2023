@@ -32,6 +32,8 @@ After this, you have to **choose one of the three** following supported methods:
 4. install dependencies:
 
     `pip install example-robot-data-jnrh2023 jupyterlab meshcat scipy ipywidgets matplotlib`
+    `pip install jupyterlab-lsp==5.0.0rc0 jupyter-lsp==2.2.0 jupyterlab==4.0.6`
+    `pip install jupyterlab_code_formatter autopep8 isort`
     `python -m ipykernel install --user --name=myenv`
 
 5. start `PYTHONPATH=. jupyter-lab`
